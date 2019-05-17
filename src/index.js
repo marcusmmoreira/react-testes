@@ -1,7 +1,6 @@
-import React from 'react';
-import { View } from 'react-native';
+import React from "react";
+import Map from "./components/Map";
 
-
-const App = () =><View/>
+const App = () => <Map />;
 
 export default App;
