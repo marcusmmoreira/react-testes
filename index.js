@@ -1,7 +1,6 @@
-/** @format */
+import React from "react";
+import Map from "./components/Map";
 
-import { AppRegistry } from "react-native";
-import App from "./src";
-import { name as appName } from "./app.json";
+const App = () => <Map />;
 
-AppRegistry.registerComponent(appName, () => App);
+export default App;
